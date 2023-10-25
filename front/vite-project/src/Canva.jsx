@@ -72,7 +72,7 @@ function canva() {
 
         <div className='create_a_design'>
           <button className='btn'>Create a design</button>
-          <button className='btn1'>HJ</button>
+          <button className='btn1'>RJ</button>
         </div>
 
 
@@ -100,12 +100,79 @@ function canva() {
 
       </div>
 
+<div className='slide'>
 
-<div></div>
+<div className='columns'>
+
+<h4>  <img src="./image/crown - golden.svg" alt="" /> Get Canva Pro</h4>
+
+</div>
+
+
+<div className='home'>
+
+<h4>  <img src="./image/home.svg" alt="" /> Home</h4>
+
+</div>
+
+
+<div className='star'>
+
+<h4> <img src="./image/stars.svg" alt="" />  Magic Studio</h4>
+
+</div>
+
+<div class="scroll-container">
+       
+   
+<div className='project'>
+
+<h4> <img src="./image/folder.svg" alt="" />  Project</h4>
+<h5><img src="./image/chevron-right.svg" alt="" /></h5>
+</div>
+
+
+<div className='templates'>
+
+<h4> <img src="./image/templates.svg" alt="" />  Templates</h4>
+<h5><img src="./image/chevron-right.svg" alt="" /></h5>
+
+</div>
+
+<div className='Brand'>
+
+<h4> <img src="./image/brands.svg" alt="" />  Brands</h4>
+<h5><img src="./image/chevron-right.svg" alt="" /></h5>
+
+</div>
+
+
+<div className='App'>
+
+<h4> <img src="./image/apps.svg" alt="" />  App</h4>
+<h5><img src="./image/chevron-right.svg" alt="" /></h5>
+
+</div>
+</div>
+
+<div className='invite'>
+<h4> <img src="./image/plus.svg" alt="" />  Invite Member</h4>
+
+</div>
 
 
 
-      {/* ///////// right part////// */}
+<div className='trash'>
+<h4> <img src="./image/trash.svg" alt="" />Trash</h4>
+
+</div>
+
+</div>
+
+
+
+
+      {/* ///////// right part1////// */}
 
 
 
@@ -133,7 +200,7 @@ function canva() {
       
 
         <div className='searchbar'>
-
+        <img src="./image/zoom.svg" alt="" />
           <input type="search1" placeholder='Use 5+ words to describe' />
         </div>
 

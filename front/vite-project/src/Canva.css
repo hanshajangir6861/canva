@@ -1,8 +1,4 @@
-/* *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
+
 .main{
   display: flex;
   align-items: center;
@@ -52,12 +48,18 @@ button.btn {
     width: 33px;
 }
 .create_a_design .btn {
-
-  margin-left: 97px;
+  margin-left: 161px;
+ 
 }
-
-.search .img{
+input[type="search"] {
+  height: 32px;
+  width: 235px;
+  border: none;
+}
+.search {
   margin: 5px;
+ 
+  border: 2px solid #f4f0ee;
 }
 
 /* ////////// */
@@ -77,6 +79,11 @@ button.btn {
 .left{
   display: flex;
   position: relative;
+  height: 71px;
+  width: 314px;
+    border: 2px solid #f4f0ee;
+    border-radius: 8px;
+    margin-top: 22px;
 }
 .fslcreativity h4{
  
@@ -99,6 +106,178 @@ h5 {
   top: 28px;
 }
 
+.columns h4 img {
+  height: 30px;
+  width: 30px;
+  margin-left: -4px;
+  margin-top: -29px;
+}
+
+.columns {
+  border: 2px solid #f4f0ee;
+  width: 314px;
+  height: 46px;
+  border-radius: 7px;
+}
+
+.home {
+  border: 2px solid #f4f0ee;
+  width: 314px;
+  height: 46px;
+  border-radius: 7px;
+}
+
+.home h4 img {
+  height: 30px;
+  width: 30px;
+  margin-left: 32px;
+  margin-top: -29px;
+}
+
+.star{
+  /* border: 2px solid #f4f0ee; */
+  width: 236px;
+  height: 46px;
+  /* border-radius: 7px; */
+}
+
+.star h4 img {
+  height: 30px;
+  width: 30px;
+  margin-left: 32px;
+  margin-top: -29px;
+ 
+}
+.star h4{
+  background: linear-gradient(45deg ,rgb(30, 30, 231),rgb(35, 197, 225) ,rgb(216, 33, 233));
+  -webkit-background-clip: text ;
+  color: transparent;
+}
+
+
+.project{
+  /* border: 2px solid #f4f0ee; */
+  width: 236px;
+  height: 46px;
+  font-size: 14px;
+  /* border-radius: 7px; */
+}
+
+.project h4 img {
+  height: 31px;
+  width: 30px;
+  margin-left: 32px;
+  margin-top: -29px;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
+
+ 
+
+
+
+
+.App{
+  /* border: 2px solid #f4f0ee; */
+  width: 236px;
+  height: 46px;
+  font-size: 14px;
+  /* border-radius: 7px; */
+}
+
+.App h4 img {
+  height: 31px;
+  width: 30px;
+  margin-left: 32px;
+  margin-top: -29px;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
+/* .App h5 img {
+  position: absolute;
+  top: 351px;
+  left: 254px;
+} */
+.invite{
+  border: 2px solid #f4f0ee;
+  width: 236px;
+  height: 46px;
+  font-size: 14px;
+  border-radius: 7px;
+}
+
+.invite h4 img {
+  height: 31px;
+  width: 30px;
+  margin-left: 32px;
+  margin-top: -29px;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
+.trash{
+  /* border: 2px solid #f4f0ee; */
+  width: 236px;
+  height: 46px;
+  font-size: 14px;
+  /* border-radius: 7px; */
+}
+
+.trash h4 img {
+  height: 31px;
+  width: 30px;
+  margin-left: 32px;
+  margin-top: -29px;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
+
+
+
+.Brand{
+  /* border: 2px solid #f4f0ee; */
+  width: 236px;
+  height: 46px;
+  font-size: 14px;
+  /* border-radius: 7px; */
+}
+
+.Brand h4 img {
+  height: 31px;
+  width: 30px;
+  margin-left: 32px;
+  margin-top: -29px;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
+
+.templates{
+  /* border: 2px solid #f4f0ee; */
+  width: 236px;
+  height: 46px;
+  font-size: 14px;
+  /* border-radius: 7px; */
+}
+
+.templates h4 img {
+  height: 31px;
+  width: 30px;
+  margin-left: 32px;
+  margin-top: -29px;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
 
 
 
@@ -106,34 +285,16 @@ h5 {
 /* /////////right// */
 
 
-/* .right{
-  display: flex;
-  justify-content: center;
-  align-items: center; */
 
-  /* height: 500px;
-  width: 500px;
-  background-color: rgb(22, 101, 170); */
-/* } */
-
-/* .magic{
-  height: 300px;
-  width: 300px;
-  background-color: rgb(22, 101, 170);
-} */
-/* .magic {
-  height: 400px;
-  width: 800px;
-  background-color: rgb(22, 101, 170);
-border: 10px;
-} */
 .right {
-  height: 350px;
-  width: 966px;
-  background-color: rgb(22, 101, 170);
+  height: 382px;
+  width: 919px;
+  background: linear-gradient(45deg ,rgb(59, 59, 244),rgb(203, 23, 203) ,rgb(173, 11, 188));
   border: 10px;
-  margin-left: 260px;
+  margin-left: 332px;
   color: white;
+  margin-top: -576px;
+  border-radius: 9px;
   /* display: flex; */
 }
 .right-button{
@@ -157,7 +318,7 @@ border: 10px;
 .custom button {
  
   margin: 7px;
-  height: 38px;
+  height: 45px;
   width: 94px;
   background-color: mediumpurple;
   border: none;
@@ -174,12 +335,21 @@ border: 10px;
   position: relative;
 }
 
-.searchbar{
+.searchbar {
   text-align: center;
+  border: 2px solid gray;
+  background-color: white;
+  width: 540px;
+  border: none;
+  border-radius: 7px;
+  height: 55px;
+  margin-left: 194px;
 }
  input[type="search1"] {
   height: 40px;
   width: 445px;
+  border: none;
+
 }
 /* .iconimage img{
   position: absolute; 
@@ -207,4 +377,12 @@ border: 10px;
 
 .iconimage ul li h3{
   font-size: 15px;
+}
+
+.scroll-container {
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  border: 1px solid #f4f0ee;
+  padding: 10px;
 }
